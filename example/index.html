@@ -454,7 +454,7 @@ function createHuntsMaze(w, h, cx, cy)
        /* BABYLON.SceneLoader.ImportMesh("", "../example/model/map1/", "map1.babylon", scene, function(newMeshesmap) {
 
             newMeshesmap.forEach(function(mesh,index){
-               /* mesh.position=new BABYLON.Vector3(0, 180, 0);*/
+               //mesh.position=new BABYLON.Vector3(0, 180, 0);
                 mesh.parent=box6
                 mesh.checkCollisions = true
                 shadowGenerator.getShadowMap().renderList.push(mesh);
@@ -473,10 +473,7 @@ function createHuntsMaze(w, h, cx, cy)
             scene.getMeshByName("Cube (4)").material=qiangMaterial
 
 
-           /* shadowGenerator.getShadowMap().renderList.push(scene.getMeshByName("crate"));
-            scene.getMeshByName("crate").receiveShadows = true;*/
-
-
+          
         })*/
     // Create a maze and render it
 function init()
